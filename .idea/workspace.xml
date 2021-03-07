@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4f25f49-e4f3-45db-82b7-4d7fa862e5f0" name="Default Changelist" comment="" />
+    <list default="true" id="d4f25f49-e4f3-45db-82b7-4d7fa862e5f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/expiration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/notify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SocialController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/offerRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/NotifyEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/mailuser.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offer/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offer/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user()" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/starter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +47,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -116,30 +149,44 @@
       <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
     </include_path>
   </component>
   <component name="ProjectId" id="1nem2WoH7uqDpgb3tXnNkog6ITc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/include" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/offer" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\starter\app\Http\Controllers\Front" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\starter\resources\views\include" />
-      <recent name="C:\xampp\htdocs\starter\resources\views" />
-      <recent name="C:\xampp\htdocs\starter\resources\views\layout" />
-      <recent name="C:\xampp\htdocs\starter\public" />
+      <recent name="C:\xampp\htdocs\starter\resources\views\offer" />
+      <recent name="C:\xampp\htdocs\starter\resources\lang\en" />
+      <recent name="C:\xampp\htdocs\starter\resources\lang\ar" />
+      <recent name="C:\xampp\htdocs\starter\app\Http\Controllers" />
+      <recent name="C:\xampp\htdocs\starter\resources\views\emails" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\starter\app\Models" />
       <recent name="C:\xampp\htdocs\starter\app\Http\Controllers\Front" />
     </key>
   </component>
@@ -170,33 +217,47 @@
       <workItem from="1612609709554" duration="3628000" />
       <workItem from="1612699672862" duration="448000" />
       <workItem from="1612796322532" duration="2776000" />
+      <workItem from="1612804624005" duration="263000" />
+      <workItem from="1612804973217" duration="571000" />
+      <workItem from="1612807157705" duration="5719000" />
+      <workItem from="1613391084145" duration="7537000" />
+      <workItem from="1613730628920" duration="5154000" />
+      <workItem from="1614001602190" duration="7403000" />
+      <workItem from="1614096460101" duration="3575000" />
+      <workItem from="1614174312203" duration="8808000" />
+      <workItem from="1614261924336" duration="9885000" />
+      <workItem from="1614867882879" duration="7746000" />
+      <workItem from="1615116770820" duration="3216000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611759044654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1611759044654" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1612609649346">
+    <state width="1323" height="289" key="GridCell.Tab.0.bottom" timestamp="1613738547437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612609649346" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1612609649346">
+    <state width="1323" height="289" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613738547437" />
+    <state width="1323" height="289" key="GridCell.Tab.0.center" timestamp="1613738547437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612609649346" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1612609649346">
+    <state width="1323" height="289" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613738547437" />
+    <state width="1323" height="289" key="GridCell.Tab.0.left" timestamp="1613738547437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612609649346" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1612609649346">
+    <state width="1323" height="289" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613738547437" />
+    <state width="1323" height="289" key="GridCell.Tab.0.right" timestamp="1613738547437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612609649346" />
+    <state width="1323" height="289" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613738547437" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1612609649346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -249,13 +310,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1611759857183" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1611932303797">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1614876727029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1611932303797" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611929582754">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1614876727029" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1614873983413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611929582754" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614873983413" />
   </component>
 </project>

@@ -114,4 +114,23 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
 
 
+Route::get('/redirect/{service}', 'SocialController@redirect');
 
+Route::get('/callback/{service}', 'SocialController@callback');
+Route::get('fillable','CrudController@getOffers');
+
+Route::group(
+    [
+        'prefix' => LaravelLocalization::setLocale(),
+        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+    ], function(){
+Route::group(['prefix'=>'offer'],function(){
+
+
+        Route::get('create','CrudController@create');
+    Route::get('all','CrudController@getAllOffer');
+    Route::get('edit/{offer_id}','CrudController@editOffer');
+    Route::post('update','CrudController@updateOffer')->name('offer.update');
+    Route::post('store','CrudController@store')->name('offer.store');
+});
+});
